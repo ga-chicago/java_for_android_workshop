@@ -8,8 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+// define primary application activiy Class
 public class MainActivity extends AppCompatActivity {
 
+    // define some UI elements - EditText is a text input, 
+    // TextView is a label, Button is a ... button
     final EditText firstNumber = (EditText) findViewById(R.id.editText);
     final EditText secondNumber = (EditText) findViewById(R.id.editText2);
     final TextView output = (TextView) findViewById(R.id.textView3);
@@ -18,20 +21,29 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // create application view
         setContentView(R.layout.activity_main);
+        // create toolbar (menu bar)
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        // listen for button clicks...
         button.setOnClickListener(new View.OnClickListener() {
+            // button.onClick
             public void onClick(View v) {
+                // convert EditText's content to String and parse the result as a Float
                 Float val1 = Float.parseFloat(firstNumber.getText().toString());
+                // repeat
                 Float val2 = Float.parseFloat(secondNumber.getText().toString());
-                output.setText("");
-                output.append(addNumbers(val1, val2).toString());
+                // update the text for our output...
+                output.setText(addNumbers(val1, val2).toString());
             }
         });
     }
 
+    // declare an addNumbers method with a return type of Float
+    // accepts two Floats as arguments
     protected Float addNumbers(float int1, float int2) {
+        // adds the together and returns them
         Float ret = int1 + int2;
         return ret;
     }

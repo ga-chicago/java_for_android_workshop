@@ -1,5 +1,7 @@
 ## Java for Android Workshop
 
+*Protip:* Bring an Android device and USB cable with you to connect to your computer! We cannot guarantee spares. Without a device you will be unable to test your app without the use of a virtual machine.
+
 #### Getting Started: Before the Workshop
 
 Please take the time to follow these steps to get Android Studio up and running on your computer. Some of these steps can take some time (a few students have averaged up to an hour depending on their internet connection) and we want you to be able to get the **most** out of our Java for Android workshop.
@@ -22,3 +24,13 @@ Please take the time to follow these steps to get Android Studio up and running 
   ```
 11. Select **Finish**. You'll be greeted with a *Welcome to Android Studio* window!
 12. That's all you have to do to get prepared for our workshop. If you run into any problems, please note the step you are currently on as well as what happened. Reach out to us and we'll do our best to assist!
+
+#### Learning Objectives
+
+After this workshop, students will be able to:
+- Identify their Android version.
+- Use their computer connect to an Android device.
+- Use Android Studio to design an app's user interface.
+- Write code in Java to make the user interface interative.
+- Describe the Java build process.
+- Test their application on an Android device.

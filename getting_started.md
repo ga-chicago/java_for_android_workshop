@@ -6,7 +6,7 @@ Before we get started, we need to make sure we have a few tools on our computer!
 
 Please take the time to follow these steps to get Android Studio up and running on your computer. Some of these steps can take some time (a few students have averaged up to an hour depending on their internet connection) and we want you to be able to get the **most** out of our Java for Android workshop.
 
-1. Download the latest version of Android Studio: http://tools.android.com/download/studio/builds/1-5-1
+1. Download the latest version of Android Studio: http://tools.android.com/download/studio/builds/1-5-1 - be warned that you may be required to install the JVM (Java Virtual Machine) first! Android Studio will warn you if so. Follow the on-screen prompts to complete this step if required.
 2. Once you have downloaded **Android Studio**, you should then proceed to install it.
 3. After you have completed installation you will be prompted to import settings. Select *I do not have a previous version of Studio*...
 4. You'll now be walked through the *welcome* wizard. Select **next**.

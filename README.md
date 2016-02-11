@@ -21,3 +21,11 @@ While learning about Android, you will ultimately learn:
 * Common Java libraries and frameworks, and how they can be leveraged to quickly build robust applications.
 * The basics of the Android platform and how Java fits into the picture
 * How to take this knowledge to build a simple Android app.
+
+#### Slide Deck
+
+You can follow along with the [Slide Deck](https://presentations.generalassemb.ly/b3377368c7e7282a99ed#/).
+
+#### Turning on USB Debugging
+
+A guide to enabling [USB Debugging](android_turning_on_usb_debugging.md) is available.
